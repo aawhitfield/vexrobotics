@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190D685C1A2C46420093196F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D68591A2C46420093196F /* Bolts.framework */; };
+		190D685D1A2C46430093196F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D685A1A2C46420093196F /* Parse.framework */; };
+		190D685E1A2C46430093196F /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D685B1A2C46420093196F /* ParseUI.framework */; };
+		190D68631A2C48330093196F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D68621A2C48330093196F /* AudioToolbox.framework */; };
+		190D68651A2C483C0093196F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D68641A2C483C0093196F /* CFNetwork.framework */; };
+		190D68671A2C48460093196F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D68661A2C48460093196F /* CoreGraphics.framework */; };
+		190D68691A2C48500093196F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D68681A2C48500093196F /* CoreLocation.framework */; };
+		190D686B1A2C485A0093196F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D686A1A2C485A0093196F /* libz.dylib */; };
+		190D686D1A2C48660093196F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D686C1A2C48660093196F /* MobileCoreServices.framework */; };
+		190D686F1A2C486C0093196F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D686E1A2C486C0093196F /* QuartzCore.framework */; };
+		190D68711A2C48750093196F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D68701A2C48750093196F /* Security.framework */; };
+		190D68751A2C48850093196F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 190D68741A2C48850093196F /* SystemConfiguration.framework */; };
+		1942D8991A2ED0EE007AB478 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1942D8981A2ED0EE007AB478 /* background.jpg */; };
+		1942D89C1A2EDEE2007AB478 /* ViewTeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942D89B1A2EDEE2007AB478 /* ViewTeamTableViewController.swift */; };
+		1942D89E1A2EF286007AB478 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 1942D89D1A2EF285007AB478 /* logout.png */; };
+		1942D8A01A2EF3C3007AB478 /* logoutSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 1942D89F1A2EF3C3007AB478 /* logoutSmall.png */; };
+		1942D8A21A2EF443007AB478 /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1942D8A11A2EF443007AB478 /* LogOutViewController.swift */; };
+		1942D8A41A2EF4B9007AB478 /* logoutButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1942D8A31A2EF4B9007AB478 /* logoutButton.png */; };
+		1942D8A61A303BFD007AB478 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 1942D8A51A303BFD007AB478 /* placeholder.png */; };
+		195831D71A46AC4200911DB6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195831D61A46AC4200911DB6 /* CustomCell.swift */; };
+		195831D91A48D35800911DB6 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195831D81A48D35800911DB6 /* PasswordResetViewController.swift */; };
+		195831DB1A49465000911DB6 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195831DA1A49465000911DB6 /* Custom.swift */; };
+		195DAB991A6CCC55002EC749 /* heart-outline-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 195DAB981A6CCC55002EC749 /* heart-outline-32.png */; };
+		195DAB9B1A6CCCF1002EC749 /* heart-outline-32-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 195DAB9A1A6CCCF1002EC749 /* heart-outline-32-red.png */; };
+		196B9BC81A2C5970001E06EC /* robotIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 196B9BC71A2C596F001E06EC /* robotIcon.png */; };
+		196B9BCA1A2D8BDC001E06EC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B9BC91A2D8BDC001E06EC /* LogInViewController.swift */; };
+		196B9BCC1A2D96B4001E06EC /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 196B9BCB1A2D96B4001E06EC /* icon@3x.png */; };
+		199C39771A281E3B003D23C9 /* Photo Nov 26, 11 00 20 PM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39761A281E3B003D23C9 /* Photo Nov 26, 11 00 20 PM.jpg */; };
+		199C39791A284A77003D23C9 /* Photo Nov 26, 11 00 59 PM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199C39781A284A77003D23C9 /* Photo Nov 26, 11 00 59 PM.jpg */; };
+		199C397B1A2AF596003D23C9 /* empty-flag-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 199C397A1A2AF596003D23C9 /* empty-flag-64.png */; };
+		199C397D1A2AF65A003D23C9 /* empty-flag-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 199C397C1A2AF65A003D23C9 /* empty-flag-32.png */; };
+		199C397F1A2AF7CB003D23C9 /* info-2-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 199C397E1A2AF7CB003D23C9 /* info-2-32.png */; };
+		199C39811A2AFE4E003D23C9 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199C39801A2AFE4E003D23C9 /* Images-2.xcassets */; };
+		199C39831A2AFEF7003D23C9 /* splash1.png in Resources */ = {isa = PBXBuildFile; fileRef = 199C39821A2AFEF7003D23C9 /* splash1.png */; };
+		199C39851A2BD61C003D23C9 /* TeamListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C39841A2BD61B003D23C9 /* TeamListTableViewController.swift */; };
+		199C39871A2BD93D003D23C9 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C39861A2BD93D003D23C9 /* Team.swift */; };
+		199C39891A2BDBAF003D23C9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199C39881A2BDBAE003D23C9 /* CoreData.framework */; };
+		199C398C1A2BDBC9003D23C9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 199C398A1A2BDBC8003D23C9 /* Model.xcdatamodeld */; };
+		199C39901A2BE394003D23C9 /* AddTeamTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C398F1A2BE394003D23C9 /* AddTeamTableViewController.swift */; };
+		19A589801A27DA76009FF05D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A5897F1A27DA76009FF05D /* AppDelegate.swift */; };
+		19A589841A27DA76009FF05D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A589831A27DA76009FF05D /* SecondViewController.swift */; };
+		19A589871A27DA76009FF05D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A589851A27DA76009FF05D /* Main.storyboard */; };
+		19A589891A27DA76009FF05D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A589881A27DA76009FF05D /* Images.xcassets */; };
+		19A5898C1A27DA76009FF05D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19A5898A1A27DA76009FF05D /* LaunchScreen.xib */; };
+		19A589981A27DA77009FF05D /* VEX_RoboticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A589971A27DA77009FF05D /* VEX_RoboticsTests.swift */; };
+		19B560EE1A34381C00C8E62D /* placeholder2.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B560ED1A34381C00C8E62D /* placeholder2.png */; };
+		19B560F01A35274000C8E62D /* snowplowSelected.gif in Resources */ = {isa = PBXBuildFile; fileRef = 19B560EF1A35274000C8E62D /* snowplowSelected.gif */; };
+		19B560F21A3528A600C8E62D /* snowplowGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B560F11A3528A600C8E62D /* snowplowGray.png */; };
+		19B560F41A352DDE00C8E62D /* skyrise sections gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B560F31A352DDE00C8E62D /* skyrise sections gray.png */; };
+		19B560F61A352DE500C8E62D /* skyrise sections transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B560F51A352DE500C8E62D /* skyrise sections transparent.png */; };
+		19B560FA1A35342F00C8E62D /* skyrise cube gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B560F81A35342F00C8E62D /* skyrise cube gray.png */; };
+		19B560FB1A35342F00C8E62D /* skyrise-cube-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B560F91A35342F00C8E62D /* skyrise-cube-transparent.png */; };
+		19BE65A41A357732005549D8 /* skyriseBoth.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BE65A21A357732005549D8 /* skyriseBoth.png */; };
+		19BE65A51A357732005549D8 /* skyriseBothGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BE65A31A357732005549D8 /* skyriseBothGray.png */; };
+		19CA9F0F1A3E697C00D023DF /* grayBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19CA9F0E1A3E697C00D023DF /* grayBackground.jpg */; };
+		19CA9F121A3EA8B700D023DF /* grayAbstract.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19CA9F101A3EA8B700D023DF /* grayAbstract.jpg */; };
+		19CA9F131A3EA8B700D023DF /* minimalGray.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19CA9F111A3EA8B700D023DF /* minimalGray.jpg */; };
+		19CA9F171A3EC02B00D023DF /* robonIconColor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19CA9F161A3EC02B00D023DF /* robonIconColor@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19A589921A27DA77009FF05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A589721A27DA75009FF05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A589791A27DA76009FF05D;
+			remoteInfo = "VEX Robotics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190D68591A2C46420093196F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		190D685A1A2C46420093196F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		190D685B1A2C46420093196F /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		190D685F1A2C47870093196F /* VEX Robotics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VEX Robotics-Bridging-Header.h"; sourceTree = "<group>"; };
+		190D68621A2C48330093196F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		190D68641A2C483C0093196F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		190D68661A2C48460093196F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		190D68681A2C48500093196F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		190D686A1A2C485A0093196F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		190D686C1A2C48660093196F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		190D686E1A2C486C0093196F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		190D68701A2C48750093196F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		190D68741A2C48850093196F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1942D8981A2ED0EE007AB478 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		1942D89B1A2EDEE2007AB478 /* ViewTeamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTeamTableViewController.swift; sourceTree = "<group>"; };
+		1942D89D1A2EF285007AB478 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		1942D89F1A2EF3C3007AB478 /* logoutSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoutSmall.png; sourceTree = "<group>"; };
+		1942D8A11A2EF443007AB478 /* LogOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		1942D8A31A2EF4B9007AB478 /* logoutButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoutButton.png; sourceTree = "<group>"; };
+		1942D8A51A303BFD007AB478 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		195831D61A46AC4200911DB6 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = SOURCE_ROOT; };
+		195831D81A48D35800911DB6 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		195831DA1A49465000911DB6 /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		195DAB981A6CCC55002EC749 /* heart-outline-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart-outline-32.png"; path = "../../../Artwork/heart-outline-32.png"; sourceTree = "<group>"; };
+		195DAB9A1A6CCCF1002EC749 /* heart-outline-32-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart-outline-32-red.png"; path = "../../../Artwork/heart-outline-32-red.png"; sourceTree = "<group>"; };
+		196B9BC71A2C596F001E06EC /* robotIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = robotIcon.png; path = ../robotIcon.png; sourceTree = "<group>"; };
+		196B9BC91A2D8BDC001E06EC /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		196B9BCB1A2D96B4001E06EC /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@3x.png"; path = "../icon@3x.png"; sourceTree = "<group>"; };
+		199C39761A281E3B003D23C9 /* Photo Nov 26, 11 00 20 PM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo Nov 26, 11 00 20 PM.jpg"; sourceTree = "<group>"; };
+		199C39781A284A77003D23C9 /* Photo Nov 26, 11 00 59 PM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo Nov 26, 11 00 59 PM.jpg"; sourceTree = "<group>"; };
+		199C397A1A2AF596003D23C9 /* empty-flag-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty-flag-64.png"; sourceTree = "<group>"; };
+		199C397C1A2AF65A003D23C9 /* empty-flag-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty-flag-32.png"; sourceTree = "<group>"; };
+		199C397E1A2AF7CB003D23C9 /* info-2-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-2-32.png"; sourceTree = "<group>"; };
+		199C39801A2AFE4E003D23C9 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		199C39821A2AFEF7003D23C9 /* splash1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash1.png; sourceTree = "<group>"; };
+		199C39841A2BD61B003D23C9 /* TeamListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamListTableViewController.swift; sourceTree = "<group>"; };
+		199C39861A2BD93D003D23C9 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		199C39881A2BDBAE003D23C9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		199C398B1A2BDBC9003D23C9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		199C398F1A2BE394003D23C9 /* AddTeamTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTeamTableViewController.swift; path = ../AddTeamTableViewController.swift; sourceTree = "<group>"; };
+		19A5897A1A27DA76009FF05D /* VEX Robotics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VEX Robotics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A5897E1A27DA76009FF05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A5897F1A27DA76009FF05D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19A589831A27DA76009FF05D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		19A589861A27DA76009FF05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19A589881A27DA76009FF05D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19A5898B1A27DA76009FF05D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		19A589911A27DA77009FF05D /* VEX RoboticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VEX RoboticsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A589961A27DA77009FF05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A589971A27DA77009FF05D /* VEX_RoboticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VEX_RoboticsTests.swift; sourceTree = "<group>"; };
+		19B560ED1A34381C00C8E62D /* placeholder2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder2.png; sourceTree = "<group>"; };
+		19B560EF1A35274000C8E62D /* snowplowSelected.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = snowplowSelected.gif; sourceTree = "<group>"; };
+		19B560F11A3528A600C8E62D /* snowplowGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowplowGray.png; sourceTree = "<group>"; };
+		19B560F31A352DDE00C8E62D /* skyrise sections gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skyrise sections gray.png"; sourceTree = "<group>"; };
+		19B560F51A352DE500C8E62D /* skyrise sections transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skyrise sections transparent.png"; sourceTree = "<group>"; };
+		19B560F81A35342F00C8E62D /* skyrise cube gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skyrise cube gray.png"; sourceTree = "<group>"; };
+		19B560F91A35342F00C8E62D /* skyrise-cube-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skyrise-cube-transparent.png"; sourceTree = "<group>"; };
+		19BE65A21A357732005549D8 /* skyriseBoth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skyriseBoth.png; sourceTree = "<group>"; };
+		19BE65A31A357732005549D8 /* skyriseBothGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skyriseBothGray.png; sourceTree = "<group>"; };
+		19CA9F0E1A3E697C00D023DF /* grayBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grayBackground.jpg; sourceTree = "<group>"; };
+		19CA9F101A3EA8B700D023DF /* grayAbstract.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grayAbstract.jpg; sourceTree = "<group>"; };
+		19CA9F111A3EA8B700D023DF /* minimalGray.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minimalGray.jpg; sourceTree = "<group>"; };
+		19CA9F161A3EC02B00D023DF /* robonIconColor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "robonIconColor@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19A589771A27DA76009FF05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190D68751A2C48850093196F /* SystemConfiguration.framework in Frameworks */,
+				190D68711A2C48750093196F /* Security.framework in Frameworks */,
+				190D686F1A2C486C0093196F /* QuartzCore.framework in Frameworks */,
+				190D686D1A2C48660093196F /* MobileCoreServices.framework in Frameworks */,
+				190D686B1A2C485A0093196F /* libz.dylib in Frameworks */,
+				190D68691A2C48500093196F /* CoreLocation.framework in Frameworks */,
+				190D68671A2C48460093196F /* CoreGraphics.framework in Frameworks */,
+				190D68651A2C483C0093196F /* CFNetwork.framework in Frameworks */,
+				190D68631A2C48330093196F /* AudioToolbox.framework in Frameworks */,
+				199C39891A2BDBAF003D23C9 /* CoreData.framework in Frameworks */,
+				190D685D1A2C46430093196F /* Parse.framework in Frameworks */,
+				190D685E1A2C46430093196F /* ParseUI.framework in Frameworks */,
+				190D685C1A2C46420093196F /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A5898E1A27DA77009FF05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1942D89A1A2ED119007AB478 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				199C39761A281E3B003D23C9 /* Photo Nov 26, 11 00 20 PM.jpg */,
+				199C39781A284A77003D23C9 /* Photo Nov 26, 11 00 59 PM.jpg */,
+				199C397A1A2AF596003D23C9 /* empty-flag-64.png */,
+				199C397E1A2AF7CB003D23C9 /* info-2-32.png */,
+				199C397C1A2AF65A003D23C9 /* empty-flag-32.png */,
+				199C39821A2AFEF7003D23C9 /* splash1.png */,
+				1942D8981A2ED0EE007AB478 /* background.jpg */,
+				196B9BC71A2C596F001E06EC /* robotIcon.png */,
+				19CA9F161A3EC02B00D023DF /* robonIconColor@3x.png */,
+				196B9BCB1A2D96B4001E06EC /* icon@3x.png */,
+				1942D89D1A2EF285007AB478 /* logout.png */,
+				1942D89F1A2EF3C3007AB478 /* logoutSmall.png */,
+				1942D8A31A2EF4B9007AB478 /* logoutButton.png */,
+				1942D8A51A303BFD007AB478 /* placeholder.png */,
+				19B560ED1A34381C00C8E62D /* placeholder2.png */,
+				19CA9F0E1A3E697C00D023DF /* grayBackground.jpg */,
+				19CA9F101A3EA8B700D023DF /* grayAbstract.jpg */,
+				19CA9F111A3EA8B700D023DF /* minimalGray.jpg */,
+				195DAB981A6CCC55002EC749 /* heart-outline-32.png */,
+				195DAB9A1A6CCCF1002EC749 /* heart-outline-32-red.png */,
+				19B560F71A35341700C8E62D /* Robot Functions */,
+			);
+			name = Artwork;
+			sourceTree = "<group>";
+		};
+		19A589711A27DA75009FF05D = {
+			isa = PBXGroup;
+			children = (
+				190D68741A2C48850093196F /* SystemConfiguration.framework */,
+				190D68701A2C48750093196F /* Security.framework */,
+				190D686E1A2C486C0093196F /* QuartzCore.framework */,
+				190D686C1A2C48660093196F /* MobileCoreServices.framework */,
+				190D686A1A2C485A0093196F /* libz.dylib */,
+				190D68681A2C48500093196F /* CoreLocation.framework */,
+				190D68661A2C48460093196F /* CoreGraphics.framework */,
+				190D68641A2C483C0093196F /* CFNetwork.framework */,
+				190D68621A2C48330093196F /* AudioToolbox.framework */,
+				190D68591A2C46420093196F /* Bolts.framework */,
+				190D685A1A2C46420093196F /* Parse.framework */,
+				190D685B1A2C46420093196F /* ParseUI.framework */,
+				199C398A1A2BDBC8003D23C9 /* Model.xcdatamodeld */,
+				199C39881A2BDBAE003D23C9 /* CoreData.framework */,
+				19A5897C1A27DA76009FF05D /* VEX Robotics */,
+				19A589941A27DA77009FF05D /* VEX RoboticsTests */,
+				19A5897B1A27DA76009FF05D /* Products */,
+				190D685F1A2C47870093196F /* VEX Robotics-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		19A5897B1A27DA76009FF05D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A5897A1A27DA76009FF05D /* VEX Robotics.app */,
+				19A589911A27DA77009FF05D /* VEX RoboticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19A5897C1A27DA76009FF05D /* VEX Robotics */ = {
+			isa = PBXGroup;
+			children = (
+				195831D61A46AC4200911DB6 /* CustomCell.swift */,
+				19A5897F1A27DA76009FF05D /* AppDelegate.swift */,
+				196B9BC91A2D8BDC001E06EC /* LogInViewController.swift */,
+				199C39841A2BD61B003D23C9 /* TeamListTableViewController.swift */,
+				199C398F1A2BE394003D23C9 /* AddTeamTableViewController.swift */,
+				19A589831A27DA76009FF05D /* SecondViewController.swift */,
+				19A589851A27DA76009FF05D /* Main.storyboard */,
+				195831D81A48D35800911DB6 /* PasswordResetViewController.swift */,
+				195831DA1A49465000911DB6 /* Custom.swift */,
+				1942D8A11A2EF443007AB478 /* LogOutViewController.swift */,
+				1942D89B1A2EDEE2007AB478 /* ViewTeamTableViewController.swift */,
+				199C39861A2BD93D003D23C9 /* Team.swift */,
+				19A589881A27DA76009FF05D /* Images.xcassets */,
+				1942D89A1A2ED119007AB478 /* Artwork */,
+				19A5898A1A27DA76009FF05D /* LaunchScreen.xib */,
+				199C39801A2AFE4E003D23C9 /* Images-2.xcassets */,
+				19A5897D1A27DA76009FF05D /* Supporting Files */,
+			);
+			path = "VEX Robotics";
+			sourceTree = "<group>";
+		};
+		19A5897D1A27DA76009FF05D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19A5897E1A27DA76009FF05D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19A589941A27DA77009FF05D /* VEX RoboticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				19A589971A27DA77009FF05D /* VEX_RoboticsTests.swift */,
+				19A589951A27DA77009FF05D /* Supporting Files */,
+			);
+			path = "VEX RoboticsTests";
+			sourceTree = "<group>";
+		};
+		19A589951A27DA77009FF05D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19A589961A27DA77009FF05D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19B560F71A35341700C8E62D /* Robot Functions */ = {
+			isa = PBXGroup;
+			children = (
+				19B560F11A3528A600C8E62D /* snowplowGray.png */,
+				19B560EF1A35274000C8E62D /* snowplowSelected.gif */,
+				19B560F51A352DE500C8E62D /* skyrise sections transparent.png */,
+				19B560F31A352DDE00C8E62D /* skyrise sections gray.png */,
+				19B560F81A35342F00C8E62D /* skyrise cube gray.png */,
+				19B560F91A35342F00C8E62D /* skyrise-cube-transparent.png */,
+				19BE65A21A357732005549D8 /* skyriseBoth.png */,
+				19BE65A31A357732005549D8 /* skyriseBothGray.png */,
+			);
+			name = "Robot Functions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19A589791A27DA76009FF05D /* VEX Robotics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A5899B1A27DA77009FF05D /* Build configuration list for PBXNativeTarget "VEX Robotics" */;
+			buildPhases = (
+				19A589761A27DA76009FF05D /* Sources */,
+				19A589771A27DA76009FF05D /* Frameworks */,
+				19A589781A27DA76009FF05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VEX Robotics";
+			productName = "VEX Robotics";
+			productReference = 19A5897A1A27DA76009FF05D /* VEX Robotics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19A589901A27DA77009FF05D /* VEX RoboticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A5899E1A27DA77009FF05D /* Build configuration list for PBXNativeTarget "VEX RoboticsTests" */;
+			buildPhases = (
+				19A5898D1A27DA77009FF05D /* Sources */,
+				19A5898E1A27DA77009FF05D /* Frameworks */,
+				19A5898F1A27DA77009FF05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19A589931A27DA77009FF05D /* PBXTargetDependency */,
+			);
+			name = "VEX RoboticsTests";
+			productName = "VEX RoboticsTests";
+			productReference = 19A589911A27DA77009FF05D /* VEX RoboticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19A589721A27DA75009FF05D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Aaron Whitfield";
+				TargetAttributes = {
+					19A589791A27DA76009FF05D = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = JYJEPT7XLT;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					19A589901A27DA77009FF05D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 19A589791A27DA76009FF05D;
+					};
+				};
+			};
+			buildConfigurationList = 19A589751A27DA76009FF05D /* Build configuration list for PBXProject "VEX Robotics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19A589711A27DA75009FF05D;
+			productRefGroup = 19A5897B1A27DA76009FF05D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19A589791A27DA76009FF05D /* VEX Robotics */,
+				19A589901A27DA77009FF05D /* VEX RoboticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19A589781A27DA76009FF05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B560F61A352DE500C8E62D /* skyrise sections transparent.png in Resources */,
+				19B560EE1A34381C00C8E62D /* placeholder2.png in Resources */,
+				199C39811A2AFE4E003D23C9 /* Images-2.xcassets in Resources */,
+				1942D8991A2ED0EE007AB478 /* background.jpg in Resources */,
+				1942D8A61A303BFD007AB478 /* placeholder.png in Resources */,
+				19CA9F131A3EA8B700D023DF /* minimalGray.jpg in Resources */,
+				195DAB9B1A6CCCF1002EC749 /* heart-outline-32-red.png in Resources */,
+				19A589871A27DA76009FF05D /* Main.storyboard in Resources */,
+				196B9BCC1A2D96B4001E06EC /* icon@3x.png in Resources */,
+				1942D8A01A2EF3C3007AB478 /* logoutSmall.png in Resources */,
+				19B560FA1A35342F00C8E62D /* skyrise cube gray.png in Resources */,
+				195DAB991A6CCC55002EC749 /* heart-outline-32.png in Resources */,
+				199C39831A2AFEF7003D23C9 /* splash1.png in Resources */,
+				196B9BC81A2C5970001E06EC /* robotIcon.png in Resources */,
+				19BE65A41A357732005549D8 /* skyriseBoth.png in Resources */,
+				19B560F41A352DDE00C8E62D /* skyrise sections gray.png in Resources */,
+				199C397D1A2AF65A003D23C9 /* empty-flag-32.png in Resources */,
+				19CA9F121A3EA8B700D023DF /* grayAbstract.jpg in Resources */,
+				19A5898C1A27DA76009FF05D /* LaunchScreen.xib in Resources */,
+				1942D8A41A2EF4B9007AB478 /* logoutButton.png in Resources */,
+				199C39771A281E3B003D23C9 /* Photo Nov 26, 11 00 20 PM.jpg in Resources */,
+				199C39791A284A77003D23C9 /* Photo Nov 26, 11 00 59 PM.jpg in Resources */,
+				199C397F1A2AF7CB003D23C9 /* info-2-32.png in Resources */,
+				19CA9F0F1A3E697C00D023DF /* grayBackground.jpg in Resources */,
+				1942D89E1A2EF286007AB478 /* logout.png in Resources */,
+				19BE65A51A357732005549D8 /* skyriseBothGray.png in Resources */,
+				19B560F01A35274000C8E62D /* snowplowSelected.gif in Resources */,
+				19B560FB1A35342F00C8E62D /* skyrise-cube-transparent.png in Resources */,
+				19A589891A27DA76009FF05D /* Images.xcassets in Resources */,
+				199C397B1A2AF596003D23C9 /* empty-flag-64.png in Resources */,
+				19CA9F171A3EC02B00D023DF /* robonIconColor@3x.png in Resources */,
+				19B560F21A3528A600C8E62D /* snowplowGray.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A5898F1A27DA77009FF05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19A589761A27DA76009FF05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199C39871A2BD93D003D23C9 /* Team.swift in Sources */,
+				19A589841A27DA76009FF05D /* SecondViewController.swift in Sources */,
+				195831DB1A49465000911DB6 /* Custom.swift in Sources */,
+				195831D71A46AC4200911DB6 /* CustomCell.swift in Sources */,
+				199C398C1A2BDBC9003D23C9 /* Model.xcdatamodeld in Sources */,
+				1942D8A21A2EF443007AB478 /* LogOutViewController.swift in Sources */,
+				196B9BCA1A2D8BDC001E06EC /* LogInViewController.swift in Sources */,
+				19A589801A27DA76009FF05D /* AppDelegate.swift in Sources */,
+				199C39901A2BE394003D23C9 /* AddTeamTableViewController.swift in Sources */,
+				199C39851A2BD61C003D23C9 /* TeamListTableViewController.swift in Sources */,
+				195831D91A48D35800911DB6 /* PasswordResetViewController.swift in Sources */,
+				1942D89C1A2EDEE2007AB478 /* ViewTeamTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19A5898D1A27DA77009FF05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A589981A27DA77009FF05D /* VEX_RoboticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19A589931A27DA77009FF05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A589791A27DA76009FF05D /* VEX Robotics */;
+			targetProxy = 19A589921A27DA77009FF05D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19A589851A27DA76009FF05D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A589861A27DA76009FF05D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19A5898A1A27DA76009FF05D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19A5898B1A27DA76009FF05D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19A589991A27DA77009FF05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19A5899A1A27DA77009FF05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19A5899C1A27DA77009FF05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "VEX Robotics/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "VEX Robotics";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VEX Robotics-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		19A5899D1A27DA77009FF05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "VEX Robotics/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "VEX Robotics";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "VEX Robotics-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		19A5899F1A27DA77009FF05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VEX RoboticsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "VEX RoboticsTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VEX Robotics.app/VEX Robotics";
+			};
+			name = Debug;
+		};
+		19A589A01A27DA77009FF05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VEX RoboticsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "VEX RoboticsTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VEX Robotics.app/VEX Robotics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A589751A27DA76009FF05D /* Build configuration list for PBXProject "VEX Robotics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A589991A27DA77009FF05D /* Debug */,
+				19A5899A1A27DA77009FF05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A5899B1A27DA77009FF05D /* Build configuration list for PBXNativeTarget "VEX Robotics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A5899C1A27DA77009FF05D /* Debug */,
+				19A5899D1A27DA77009FF05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19A5899E1A27DA77009FF05D /* Build configuration list for PBXNativeTarget "VEX RoboticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A5899F1A27DA77009FF05D /* Debug */,
+				19A589A01A27DA77009FF05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		199C398A1A2BDBC8003D23C9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				199C398B1A2BDBC9003D23C9 /* Model.xcdatamodel */,
+			);
+			currentVersion = 199C398B1A2BDBC9003D23C9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19A589721A27DA75009FF05D /* Project object */;
+}
